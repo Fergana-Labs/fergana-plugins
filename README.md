@@ -4,17 +4,17 @@ Claude Code plugins by [Fergana Labs](https://ferganalabs.com).
 
 ## Install
 
-Add the marketplace:
-
+**Step 1:** Add the marketplace:
 ```
 /plugin marketplace add Fergana-Labs/fergana-plugins
 ```
 
-Then install any plugin:
-
+**Step 2:** Install any plugin:
 ```
 /plugin install cohort-analysis@fergana-labs
 ```
+
+**Step 3:** Restart Claude Code to activate the plugin.
 
 ## Available Plugins
 
