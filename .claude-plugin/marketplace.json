@@ -20,6 +20,18 @@
       "author": {
         "name": "Fergana Labs"
       }
+    },
+    {
+      "name": "general-manager",
+      "source": {
+        "source": "github",
+        "repo": "Fergana-Labs/general-manager"
+      },
+      "description": "Self-learning agent orchestrator — spawn, monitor, and orchestrate Claude Code sub-agents with preference learning. Requires: pip install general-manager",
+      "version": "0.1.0",
+      "author": {
+        "name": "Fergana Labs"
+      }
     }
   ]
 }

@@ -21,6 +21,7 @@ Claude Code plugins by [Fergana Labs](https://ferganalabs.com).
 | Plugin | Description |
 |--------|-------------|
 | **cohort-analysis** | Interactive cohort analysis dashboard — engagement retention, revenue/GP cohorts, CAC/LTV payback. Point at CSV, Excel, or a database and get live charts. |
+| **general-manager** | Self-learning agent orchestrator — spawn, monitor, and orchestrate Claude Code sub-agents with preference learning. Requires `pip install general-manager`. |
 
 ## Adding a New Plugin
 
