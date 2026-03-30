@@ -28,7 +28,7 @@
         "repo": "Fergana-Labs/general-manager"
       },
       "description": "Autonomous agent orchestrator — delegate complex tasks to a manager that spawns sub-agents, monitors progress, and reports back",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "author": {
         "name": "Fergana Labs"
       }
