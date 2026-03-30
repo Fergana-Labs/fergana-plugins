@@ -28,7 +28,7 @@
         "repo": "Fergana-Labs/general-manager"
       },
       "description": "Self-learning agent orchestrator — spawn, monitor, and orchestrate Claude Code sub-agents with preference learning",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Fergana Labs"
       }
