@@ -21,7 +21,28 @@ Claude Code plugins by [Fergana Labs](https://ferganalabs.com).
 | Plugin | Description |
 |--------|-------------|
 | **cohort-analysis** | Interactive cohort analysis dashboard — engagement retention, revenue/GP cohorts, CAC/LTV payback. Point at CSV, Excel, or a database and get live charts. |
-| **general-manager** | Self-learning agent orchestrator — spawn, monitor, and orchestrate Claude Code sub-agents with preference learning. |
+| **general-manager** | Autonomous agent orchestrator — delegate complex tasks to persistent sub-agents that work in the background. |
+
+## General Manager — Quick Start
+
+**One-prompt install:**
+```
+/plugin marketplace add Fergana-Labs/fergana-plugins && /plugin install general-manager@fergana-labs
+```
+
+Restart Claude Code after installing. The CLI (`gm`) auto-installs on first session.
+
+**What it does:** Gives Claude a team. When you have a complex task — refactor, feature build, monitoring, multi-file changes — Claude decomposes it and spawns persistent sub-agents that work in the background. You keep working while they handle it.
+
+**How to use:**
+- Just describe a big task naturally — Claude will suggest delegating it
+- Or explicitly: `/general-manager:manage "refactor the auth module"`
+- Check progress: `/general-manager:status` or "how's the task going?"
+- Stop everything: `/general-manager:stop`
+
+**Agent definitions:** Create `.gm/agents/<name>.md` in your project to define specialized agent types (monitor, reviewer, etc.). Spawn them by name: Claude will use `gm _mgr spawn --agent monitor "watch the logs"`.
+
+**Scheduling:** Sub-agents can run on cron schedules — recurring or one-shot.
 
 ## Adding a New Plugin
 
