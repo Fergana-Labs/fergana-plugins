@@ -33,6 +33,18 @@
       "author": {
         "name": "Fergana Labs"
       }
+    },
+    {
+      "name": "fable-mode",
+      "source": {
+        "source": "github",
+        "repo": "Fergana-Labs/fable-mode"
+      },
+      "description": "Gives any Claude model Fable 5's measured judgement behaviors \u2014 calibrated persistence, hypothesis discipline, pre-ship verification, bias to action. Benchmark-validated: Haiku 4.5 reached Fable-level scores; Sonnet 5 matched Fable at ~30% of the price.",
+      "version": "4.2.0",
+      "author": {
+        "name": "Fergana Labs"
+      }
     }
   ]
 }
